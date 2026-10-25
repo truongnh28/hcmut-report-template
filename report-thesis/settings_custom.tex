@@ -1,0 +1,53 @@
+
+\usepackage[numbers]{natbib}
+\usepackage[noabbrev, nameinlink]{cleveref}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{pifont}
+\usepackage{tabto}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{forest}
+
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%% -- (start) image --
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+%% -- (end)   image --
+
+
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+
+%paragraph indentation
+\setlength{\parindent}{2.5em} 
+%paragraph spacing
+\setlength{\parskip}{.5em}
+
+\captionsetup[figure]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=7pt}
+% space remove between caption, figure, and text
+\captionsetup[table]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=7pt}
+% space remove between caption, table, and text
+
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+%%% define arrow
+\newcommand{\myarrow}[1][1cm]{\mathrel{%
+		\vcenter{\hbox{\rule[-1.5\fontdimen8\textfont3]{#1}{\fontdimen8\textfont3}}}%
+		\mkern-4mu\hbox{\usefont{U}{lasy}{m}{n}\symbol{41}}}}
+
+\newcommand{\localtextbulletone}{\textcolor{black}{\raisebox{.45ex}{\rule{.7ex}{.7ex}}}}
+\renewcommand{\labelitemi}{\localtextbulletone}
+
+

@@ -1,0 +1,51 @@
+\begin{titlepage}
+\thispagestyle{empty}
+
+% --- KHUNG VIỀN ---
+\begin{center}
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw[line width = 3pt] ($(current page.north west) + (3.0cm,-2.0cm)$) rectangle ($(current page.south east) + (-2.0cm,2.0cm) $);
+        \draw[line width = 1pt] ($(current page.north west) + (2.9cm,-1.9cm)$) rectangle ($(current page.south east) + (-1.9cm,1.9cm) $);
+    \end{tikzpicture}
+
+% --- PHẦN HEADER ---
+    \begin{large}
+        \textbf{ĐẠI HỌC QUỐC GIA TP.HCM} \\
+        \textbf{TRƯỜNG ĐẠI HỌC BÁCH KHOA} \\
+        \textbf{KHOA KHOA HỌC \& KỸ THUẬT MÁY TÍNH}
+    \end{large} \\
+
+    \vspace{0.5cm}
+
+    \includegraphics[scale=0.3]{Images/hcmut.png}\\
+
+    \vspace{0.5cm}
+
+    % BÁO CÁO THỰC TẬP / ĐỀ CƯƠNG LUẬN VĂN / LUẬN VĂN THẠC SĨ / ĐỒ ÁN ...
+    {\fontsize{16pt}{1}\selectfont \textbf{[LOẠI BÁO CÁO]}}\\[0.75cm]
+
+% --- TÊN ĐỀ TÀI ---
+    \begin{minipage}{0.85\textwidth}
+        \centering\textbf{\large [TÊN ĐỀ TÀI]}
+    \end{minipage}\\[0.4cm]
+    {\large\textit{[Phụ đề, có thể bỏ]}}\\[0.75cm]
+
+    {\fontsize{16pt}{1}\selectfont \textbf{NGÀNH: [TÊN NGÀNH]}}
+
+    \vfill
+
+% --- BẢNG THÔNG TIN ---
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{r c l}
+        \textbf{\large Giảng viên hướng dẫn} & : & \large [Học hàm, học vị, họ tên] \\
+                                           &   & \large [Đồng hướng dẫn, nếu có] \\ [0.3cm]
+        \textbf{\large Học viên thực hiện}   & : & \large [Họ tên] -- [MSHV] \\
+    \end{tabular}
+
+    \vfill
+
+% --- FOOTER ---
+    {\fontsize{14pt}{1}\selectfont TP. HỒ CHÍ MINH, THÁNG [MM/YYYY]}
+
+\end{center}
+\end{titlepage}

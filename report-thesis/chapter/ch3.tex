@@ -1,0 +1,28 @@
+\chapter{Phương pháp đề xuất}\label{chapter:method}
+\pagestyle{fancy}
+
+\section{Tổng quan}
+Hình~\ref{fig:sample} là mẫu hình.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.25\textwidth]{hcmut.png}
+  \caption{Mẫu hình (thay bằng hình của đề tài, đặt trong thư mục \texttt{Images/}).}\label{fig:sample}
+\end{figure}
+
+\section{Thuật toán}
+Thuật toán~\ref{alg:sample} là mẫu thuật toán.
+
+\begin{algorithm}[ht]
+  \caption{Mẫu thuật toán}\label{alg:sample}
+  \begin{algorithmic}[1]
+    \Require Dãy số $a_1, \dots, a_n$
+    \State $s \gets 0$
+    \For{$i \gets 1$ \textbf{to} $n$}
+      \If{$a_i > 0$}
+        \State $s \gets s + a_i$
+      \EndIf
+    \EndFor
+    \State \Return $s$
+  \end{algorithmic}
+\end{algorithm}
