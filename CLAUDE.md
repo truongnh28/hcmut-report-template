@@ -48,7 +48,7 @@ Quy tắc khi dùng các template trong repo này để viết báo cáo, slide 
 - **Kết quả theo paper.** Số, hình, bảng trên slide lấy y nguyên từ paper; ghi nhãn bằng chứng (đo / mô phỏng). Không đưa số dự phóng hay số nháp.
 - **Một slide một ý**, chữ ít, hình nhiều; công thức nào khó thì vẽ hình minh hoạ cho công thức.
 - **Không nhắc đề tài khác.** Slide của đề tài nào chỉ nói về đề tài đó, kể cả khi dùng lại template hay hình từ đề tài khác.
-- **Kịch bản nói.** Viết lời nói cho từng slide trong file `<tên-slide>-script.md` cạnh file `.tex`: mỗi slide một đoạn, ghi thời lượng trong ngoặc, xưng "em" với thầy, số nói đúng như trên slide.
+- **Kịch bản nói.** Viết lời nói cho từng slide trong file `<tên-slide>-script.md` cạnh file `.tex`: mỗi slide một đoạn, ghi thời lượng trong ngoặc, số nói đúng như trên slide.
 - **Slide dự phòng** đặt sau `\appendix`; footer chỉ đếm tới `\label{endmain}`.
 - Bỏ slide không mang giá trị cho người nghe (hướng dẫn sử dụng, chi tiết kỹ thuật vụn) khi được yêu cầu rút gọn.
 
